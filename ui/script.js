@@ -58,7 +58,20 @@ document.getElementById("generate").addEventListener('click', () => {
    location.reload()
 })
 
-window.onload(
-   document.getElementById("dc").innerHTML = JSON.parse(localStorage.getItem("passwords"))[JSON.parse(localStorage.getItem("passwords")).length - 1]
-   )
 
+   document.getElementById("copy").addEventListener('click', () => {
+      let text = JSON.parse(localStorage.getItem("passwords"))[JSON.parse(localStorage.getItem("passwords")).length - 1]
+      navigator.clipboard.writeText(text)
+      alert("Password copied to clipboard.")
+   })
+
+   window.onload = function() { 
+      document.getElementById("dc").innerHTML = JSON.parse(localStorage.getItem("passwords"))[JSON.parse(localStorage.getItem("passwords")).length - 1]
+   }
+   
+
+   document.getElementById("clear").addEventListener('click', () => {
+      localStorage.removeItem("passwords")
+      location.reload()
+   })
+   
