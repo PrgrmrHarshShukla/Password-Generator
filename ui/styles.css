@@ -1,0 +1,18 @@
+body {
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+}
+
+/* #main {
+
+} */
+
+#dc {
+   color: white;
+}
