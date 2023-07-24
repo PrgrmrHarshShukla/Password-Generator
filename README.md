@@ -2,4 +2,7 @@
 This is a password generator made using HTML, CSS &amp; JavaScript.
 
 
-![Screenshot (117)](https://github.com/PrgrmrHarshShukla/Password-Generator/assets/125105825/08a135c6-8c0e-4bf3-a58c-e69727c83191)
+
+
+
+![Screenshot 2023-07-24 110228](https://github.com/PrgrmrHarshShukla/Password-Generator/assets/125105825/2fe64ad0-09d4-47e6-a960-3607bd74b473)
